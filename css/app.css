@@ -11,6 +11,9 @@ a {
 .white {
     color: white;
 }
+.midnightblue {
+    color: rgb(41, 61, 82);
+}
 
 .bg-midnightblue {
     background-color: rgb(41, 61, 82);
@@ -20,6 +23,8 @@ a {
     background-color: rgb(0, 194, 157);
 }
 
+.bg-aqua
+
 
 /* DEBUG RULE */
 
@@ -27,7 +32,7 @@ a {
     padding: 10px;
 }
 
-.debug-padding-30 {
+.padding-30 {
     padding: 30px;
 }
 
@@ -43,8 +48,25 @@ a {
     border: 4px solid black;
 }
 
-.avatar {
-    max-height: 400px;
-    overflow: hidden;
 
-}
+.outer-line {
+    width: 20%;
+    border-bottom: 5px solid currentColor;
+  }
+
+  span {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .line {
+    width: 100%;
+    border-bottom: 2px solid grey;
+  }
+
+  input {
+    outline: none;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+  }
