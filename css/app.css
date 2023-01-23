@@ -8,12 +8,19 @@ a {
     text-decoration: none;
 }
 
-input {
+
+/* 
+input,
+ label,
+ textarea {
     outline: none;
     border-top-style: hidden;
     border-right-style: hidden;
     border-left-style: hidden;
-  }
+    border: none;
+ }
+ */
+
 
 /* COLOR */
 
